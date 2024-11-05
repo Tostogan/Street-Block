@@ -13,8 +13,10 @@
             border: 1px dotted red;
         }
         .house {
-            border: 1px dotted greenyellow;
+            /* border: 1px dotted greenyellow; */
             width: 150px;
+            display: inline-block;
+            margin-right: 30px;
         }
         .house-roof {
             width: 0px;
@@ -37,6 +39,21 @@
             height: 50px;
             transform: translateX(45px) translateY(45px);
         }
+        .building-tall {
+            background-color: #ffff99;
+            height: 300px;
+            width: 200px;
+            display: inline-block;
+        }
+        .cloud {
+            display: inline-block;
+            vertical-align: top;
+            padding-top: 20px;
+
+        }
+        .building-small {
+            display: inline-block;
+        }
     </style>
 </head>
 
@@ -48,6 +65,10 @@
                 <div class="house-window"></div>
             </div>
         </div>
+
+        <div class="building-tall"></div>
+        <div class="cloud"><img src="Oxygen-Icons.org-Oxygen-Status-weather-clouds.64.png" alt=""></div>
+        <div class="building-small">SMALL</div>
     </div>
     
 </body>
